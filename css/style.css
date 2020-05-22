@@ -1,0 +1,36 @@
+body {
+  position: relative;
+  z-index: 0;
+}
+
+.songList__item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.songList__info {
+  position: absolute;
+  left: 400px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #fff;
+  left: -500px;
+  top: 0;
+}
+
+.modal-window {
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.modal-list__item {
+  padding-bottom: 50px;
+}
